@@ -1,23 +1,29 @@
 import logo from './logo.svg';
+
 import './App.css';
+import Fetch from './components/fetch';
+import Counter from './components/Counter';
+import ParentComponent from './components/ParentComponent';
+import Form from './components/Form';
+import CustomForm from './components/CustomForm';
+import Apis from './components/Apis';
 
 function App() {
+
+
+  let data=`<p style="font-size:'20px'">this is my House</p>`
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div dangerouslySetInnerHTML={{ __html: data }}>
+        
+      </div>
+      {/* <Fetch/> */}
+      {/* <Counter/> */}
+      {/* <ParentComponent/>
+      <Form/> */}
+      {/* <CustomForm/> */}
+      <Apis/>
     </div>
   );
 }

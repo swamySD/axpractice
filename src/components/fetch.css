@@ -1,0 +1,24 @@
+.card-container-g{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  h1{
+text-align: center;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height:150px;
+    border-radius: 6px;
+    border: 1px solid #0cc8ee;
+    
+  }
+  
