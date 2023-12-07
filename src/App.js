@@ -7,6 +7,7 @@ import ParentComponent from './components/ParentComponent';
 import Form from './components/Form';
 import CustomForm from './components/CustomForm';
 import Apis from './components/Apis';
+import Debouncing from './components/Debouncing';
 
 function App() {
 
@@ -23,7 +24,9 @@ function App() {
       {/* <ParentComponent/>
       <Form/> */}
       {/* <CustomForm/> */}
-      <Apis/>
+       <Apis/>
+      {/*<Debouncing/> */}
+      {/* <Form/> */}
     </div>
   );
 }
