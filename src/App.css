@@ -10,7 +10,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -39,4 +42,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.lang-button{
+  background-color: rgb(179, 244, 241);
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 6px;
+  border-width: 0px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.lang-button:hover{
+  background-color: rgb(91, 175, 175);
+  cursor: pointer;
+  border-color: #272da6;
+  border: 1px solid;
+}
+.selected-lang{
+  border-color: rgb(26, 128, 230);
 }
