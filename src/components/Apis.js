@@ -16,6 +16,8 @@ const Apis = () => {
     getData();
   }, []);
 
+  
+
   const postData = () => {
     axios
       .post('https://6523e5e7ea560a22a4e8ffe4.mockapi.io/users', {
